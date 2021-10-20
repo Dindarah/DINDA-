@@ -1,0 +1,50 @@
+
+
+.about-sec {
+    margin-top: 200px;
+}
+
+.text-extrabig {
+    font-size: 56px;
+}
+
+#main {
+    height: 90vh;
+}
+
+.border-all {
+    border: 1px solid black;
+}
+
+.border-rounded {
+    border-radius: 10px;
+}
+
+.card-element div {
+    height: 250px;
+}
+
+.card-element h1 {
+    background-color: rgb(37, 37, 37);
+    padding: 3px 15px;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+    position: relative;
+    top: -40px;
+}
+
+.text-smallmed {
+    font-size: 18px;
+}
+
+
+@media (min-width: 992px) {
+    body{
+        overflow-y: hidden;
+    }
+
+    .about-sec {
+        margin-top: 0px;
+    }
+}
